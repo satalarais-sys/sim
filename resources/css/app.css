@@ -1,0 +1,26 @@
+/* resources/css/app.css */
+/* Minimal CSS so Vite has something to build. Replace with Tailwind or other styling as needed. */
+
+:root {
+  --primary: #0ea5a4;
+  --muted: #6b7280;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 0;
+  color: #111827;
+}
+
+.header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
